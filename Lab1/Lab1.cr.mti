@@ -1,0 +1,105 @@
+C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/reg_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/reg_gen.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_gen
+-- Compiling architecture BHV of reg_gen
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu32.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu32
+-- Compiling architecture BHV of alu32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu_ctrl_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab1\alu_ctrl_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ctrl_tb
+-- Compiling architecture TB of alu_ctrl_tb
+-- Loading entity alu_ctrl
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/Reconfig/Labs/Lab2/mult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/Reconfig/Labs/Lab2/mult.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mult
+-- Compiling architecture BHV of mult
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu32control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu32control.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu32control
+-- Compiling architecture BHV of alu32control
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu32_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu32_tb
+-- Compiling architecture TB of alu32_tb
+-- Loading entity alu32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/reg_gen_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/reg_gen_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg_gen_tb
+-- Compiling architecture TB of reg_gen_tb
+-- Loading entity reg_gen
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/adder_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/adder_gen.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder_gen
+-- Compiling architecture BHV of adder_gen
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/registerFile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/registerFile.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registerFile
+-- Compiling architecture STR of registerFile
+-- Loading entity reg_gen
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/alu_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab1\alu_ctrl.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ctrl
+-- Compiling architecture STR of alu_ctrl
+-- Loading entity alu32control
+-- Loading entity alu32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/registerFile_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab1/registerFile_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registerFile_tb
+-- Compiling architecture TB of registerFile_tb
+-- Loading entity registerFile
+
+} {} {}}

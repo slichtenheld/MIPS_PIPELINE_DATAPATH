@@ -1,0 +1,255 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Mux2_1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:07:35 on Sep 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2_1
+# -- Compiling architecture BHV of mux2_1
+# End time: 16:07:36 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1.vho
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:08:18 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity mux2_1
+# -- Compiling architecture structure of mux2_1
+# End time: 16:08:18 on Sep 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:09:19 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2_1_tb
+# -- Compiling architecture TB of mux2_1_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Loading entity mux2_1
+# End time: 16:09:19 on Sep 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim +altera -do Mux2_1_run_msim_rtl_vhdl.do -l msim_transcript -gui -sdftyp /UUT=C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_vhd.sdo work.mux2_1_tb
+# vsim -gui "+altera" -l msim_transcript -do "Mux2_1_run_msim_rtl_vhdl.do" 
+# Start time: 16:09:42 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.mux2_1_tb(tb)
+# SDF 10.3d Compiler 2014.10 Oct  7 2014
+# 
+# Loading work.mux2_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading instances from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_vhd.sdo
+# Loading timing data from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /mux2_1_tb File: C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd
+# do Mux2_1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:09:44 on Sep 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2_1
+# -- Compiling architecture BHV of mux2_1
+# End time: 16:09:45 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+add wave -position end  sim:/mux2_1_tb/in1
+add wave -position end  sim:/mux2_1_tb/in2
+add wave -position end  sim:/mux2_1_tb/sel
+add wave -position end  sim:/mux2_1_tb/output
+run -all
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_slow.vho
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:25:40 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity mux2_1
+# -- Compiling architecture structure of mux2_1
+# End time: 16:25:40 on Sep 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim +altera -do Mux2_1_run_msim_rtl_vhdl.do -l msim_transcript -gui -sdftyp /UUT=C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo work.mux2_1
+# vsim 
+# Start time: 16:26:12 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.mux2_1(structure)
+# SDF 10.3d Compiler 2014.10 Oct  7 2014
+# 
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading instances from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(0): Failed to find INSTANCE '/UUT'.
+# 
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# 
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(0): Failed to find INSTANCE '/UUT'.
+# 
+# Error loading design
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_slow.vho
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:26:41 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity mux2_1
+# -- Compiling architecture structure of mux2_1
+# End time: 16:26:42 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:26:47 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2_1_tb
+# -- Compiling architecture TB of mux2_1_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Loading entity mux2_1
+# End time: 16:26:48 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_slow.vho
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:26:59 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity mux2_1
+# -- Compiling architecture structure of mux2_1
+# End time: 16:27:00 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim +altera -do Mux2_1_run_msim_rtl_vhdl.do -l msim_transcript -gui -sdftyp /UUT=C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo work.mux2_1_tb
+# vsim 
+# Start time: 16:27:30 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.mux2_1_tb(tb)
+# Loading work.mux2_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading instances from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo
+# Loading timing data from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /mux2_1_tb File: C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd
+# do Mux2_1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# 
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:27:32 on Sep 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2_1
+# -- Compiling architecture BHV of mux2_1
+# End time: 16:27:32 on Sep 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+add wave -position end  sim:/mux2_1_tb/in1
+add wave -position end  sim:/mux2_1_tb/in2
+add wave -position end  sim:/mux2_1_tb/sel
+add wave -position end  sim:/mux2_1_tb/output
+run -all
+quit -sim
+# reading C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Testing

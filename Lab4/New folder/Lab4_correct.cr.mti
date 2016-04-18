@@ -1,0 +1,288 @@
+C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mipsLib.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mipsLib.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package mipsLib
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32control.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mipsLib
+-- Compiling entity alu32control
+-- Compiling architecture BHV of alu32control
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ramControl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ramControl.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package mipsLib
+-- Compiling entity ramControl
+-- Compiling architecture BHV of ramControl
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/Quartus/instr_mem.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\Quartus\instr_mem.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity instr_mem
+-- Compiling architecture SYN of instr_mem
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/signext.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/signext.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity signext
+-- Compiling architecture BHV of signext
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mipsLib
+-- Compiling entity tb
+-- Compiling architecture TB of tb
+-- Loading entity tplvl
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/reg1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\New folder\reg1.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg1
+-- Compiling architecture BHV of reg1
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu32_tb
+-- Compiling architecture TB of alu32_tb
+-- Loading package mipsLib
+-- Loading entity alu32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux2_1.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture BHV of mux2_1
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/registerFile.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/registerFile.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registerFile
+-- Compiling architecture STR of registerFile
+-- Loading entity reg
+-- Loading entity mux32_1
+-- Loading entity decoder
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ctrl
+-- Compiling architecture STR of alu_ctrl
+-- Loading package mipsLib
+-- Loading entity alu32control
+-- Loading entity alu32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/decoder.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder
+-- Compiling architecture BHV of decoder
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux4_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux4_1.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4_1
+-- Compiling architecture BHV of mux4_1
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package mipsLib
+-- Compiling entity alu32
+-- Compiling architecture BHV of alu32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/extender.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/extender.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extender
+-- Compiling architecture STR of extender
+-- Loading entity zeroext
+-- Loading entity signext
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/tplvl.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\New folder\tplvl.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tplvl
+-- Compiling architecture STR of tplvl
+-- Loading entity mux4_1
+-- Loading entity pcReg
+-- Loading package NUMERIC_STD
+-- Loading entity adder
+-- Loading package altera_mf_components
+-- Loading entity instr_mem
+-- Loading entity reg
+-- Loading entity reg1_RESET1
+-- Loading package mipsLib
+-- Loading entity pipeCtrl
+-- Loading entity registerFile
+-- Loading entity extender
+-- Loading entity mux2_1
+-- Loading entity comparator
+-- Loading entity SLL2
+-- Loading entity reg1
+-- Loading entity alu_ctrl
+-- Loading entity ram_ctrl
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/pipeCtrl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/pipeCtrl.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package mipsLib
+-- Compiling entity pipeCtrl
+-- Compiling architecture BHV of pipeCtrl
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/zeroext.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/zeroext.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zeroext
+-- Compiling architecture BHV of zeroext
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/pcReg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/pcReg.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pcReg
+-- Compiling architecture BHV of pcReg
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/reg.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture BHV of reg
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/adder_gen_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/adder_gen_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder_gen_tb
+-- Compiling architecture TB of adder_gen_tb
+-- Loading entity adder_gen
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package mipsLib
+-- Compiling entity alu_ctrl_tb
+-- Compiling architecture TB of alu_ctrl_tb
+-- Loading entity alu_ctrl
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/Quartus/data_mem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/Quartus/data_mem.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity data_mem
+-- Compiling architecture SYN of data_mem
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ram_ctrl.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ram_ctrl.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package mipsLib
+-- Compiling entity ram_ctrl
+-- Compiling architecture STR of ram_ctrl
+-- Loading entity mux4_1
+-- Loading package altera_mf_components
+-- Loading entity data_mem
+-- Loading entity ramControl
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/comparator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/comparator.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator
+-- Compiling architecture BHV of comparator
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder
+-- Compiling architecture BHV of adder
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/SLL2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/SLL2.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SLL2
+-- Compiling architecture BHV of SLL2
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux32_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux32_1.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux32_1
+-- Compiling architecture BHV of mux32_1
+
+} {} {}} {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/reg1_RESET1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\New folder\reg1_RESET1.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg1_RESET1
+-- Compiling architecture BHV of reg1_RESET1
+
+} {} {}}

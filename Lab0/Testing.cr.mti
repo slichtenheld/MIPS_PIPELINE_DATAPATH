@@ -1,0 +1,124 @@
+C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/mux32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/mux32_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Compiling entity mux32_tb
+-- Compiling architecture TB of mux32_tb
+-- Loading entity mux32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/extender_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/extender_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity extender_tb
+-- Compiling architecture TB of extender_TB
+-- Loading entity extender
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/mux32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/mux32.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32
+-- Compiling architecture BHV of mux32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/reg32_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/reg32_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg32_tb
+-- Compiling architecture TB of reg32_tb
+-- Loading entity reg32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/zeroext.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/zeroext.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zeroext
+-- Compiling architecture BHV of zeroext
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Compiling entity mux2_1_tb
+-- Compiling architecture TB of mux2_1_tb
+-- Loading entity mux2_1
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/reg32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab0\reg32.vhd}
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg32
+-- Compiling architecture BHV of reg32
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Mux5_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Mux5_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Compiling entity mux5_tb
+-- Compiling architecture TB of mux5_tb
+-- Loading entity mux5
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/mux2_1.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture BHV of mux2_1
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/zeroext_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/zeroext_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity zeroext_tb
+-- Compiling architecture TB of zeroext_TB
+-- Loading entity zeroext
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Mux5.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Mux5.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux5
+-- Compiling architecture BHV of mux5
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/extender.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/extender.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extender
+-- Compiling architecture STR of extender
+-- Loading entity zeroext
+-- Loading entity signext
+
+} {} {}} C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/signext_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/signext_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signext_tb
+-- Compiling architecture TB of signext_TB
+-- Loading entity signext
+
+} {} {}}

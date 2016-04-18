@@ -1,0 +1,13 @@
+0:addi $1, $0, 0x0001
+1:beq $1, $0, branch1
+2:bne $1, $0, branch2
+3:addi $1, $0, 0x1000
+branch1:
+4:addi $1, $1, 0x0001
+5:addi $1, $1, 0x0001
+6:j end
+branch2:
+7:addi $1, $1, 0xFFFF
+8:addi $1, $1, 0xFFFF
+end:
+9:j end

@@ -1,0 +1,33 @@
+# Compile of Mux5.vhd failed with 1 errors.
+# Compile of Mux5.vhd was successful.
+# Compile of Mux5_tb.vhd failed with 3 errors.
+# Compile of Mux5_tb.vhd failed with 3 errors.
+# Compile of Mux5_tb.vhd failed with 5 errors.
+# Compile of Mux5_tb.vhd failed with 5 errors.
+# Compile of Mux5_tb.vhd failed with 5 errors.
+# Compile of Mux5_tb.vhd failed with 5 errors.
+# Compile of Mux5_tb.vhd failed with 5 errors.
+# Compile of Mux5_tb.vhd was successful.
+# Load canceled
+# Compile of mux2_1_tb.vhd failed with 3 errors.
+# Compile of mux2_1.vhd was successful.
+# Compile of Mux5.vhd was successful.
+# Compile of Mux5_tb.vhd was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of mux2_1_tb.vhd was successful.
+# Load canceled
+vmap -del work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet -del work 
+# Removing reference to logical library work
+# Modifying C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Testing.mpf
+vmap work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/work 
+# Modifying C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Testing.mpf
+# Compile of mux2_1_tb.vhd was successful.
+# Compile of mux2_1.vhd was successful.
+# Compile of Mux5.vhd was successful.
+# Compile of Mux5_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim +altera -do Mux2_1_run_msim_rtl_vhdl.do -l msim_transcript -gui -sdftyp /UUT=C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo work.mux5_tb

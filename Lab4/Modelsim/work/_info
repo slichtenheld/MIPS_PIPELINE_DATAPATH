@@ -1,0 +1,646 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/slichtenheld/Documents/UF/Fall15/Reconfig/Labs/Lab4/Modelsim2
+Ealu32
+Z0 w1447285524
+Z1 DPx4 work 7 mipslib 0 22 S7dmdlbN@NZWCddgkm1gU3
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/Modelsim
+Z6 8C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32.vhd
+Z7 FC:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32.vhd
+l0
+L7
+V7e6J?ioNT_1?AoAGHDJB>0
+!s100 [59b?mjaQ^4>D:Y35W5aJ0
+Z8 OV;C;10.3d;59
+32
+Z9 !s110 1447285598
+!i10b 1
+Z10 !s108 1447285598.523000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32.vhd|
+Z12 !s107 C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1
+Abhv
+R1
+R2
+R3
+R4
+Z15 DEx4 work 5 alu32 0 22 7e6J?ioNT_1?AoAGHDJB>0
+l20
+L18
+VFJV>I18IGncgj>B::d0PG1
+!s100 P;ZFh>4af29?:aj[m;d?X0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealu32_tb
+Z16 w1443120716
+R2
+R3
+R4
+R5
+Z17 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32_tb.vhd
+Z18 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32_tb.vhd
+l0
+L5
+V6zYGR7DRh]ncfgTB1?U8a1
+!s100 ETn?X@HzRleB0ZaS^2CJz0
+R8
+32
+Z19 !s110 1447259663
+!i10b 1
+Z20 !s108 1447259663.278000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32_tb.vhd|
+Z22 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu32_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+Z23 DPx4 work 7 mipslib 0 22 FYaQE21@J4Qb`YJ?0KaBk3
+R15
+R2
+R3
+R4
+DEx4 work 8 alu32_tb 0 22 6zYGR7DRh]ncfgTB1?U8a1
+l24
+L8
+VF=F?7odV6WQ]Bn9EAlSZR3
+!s100 >V]9Ia9<jOAb_:cF[<MoW0
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Ealu32control
+Z24 w1445555402
+R1
+R3
+R4
+R5
+Z25 8C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32control.vhd
+Z26 FC:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32control.vhd
+l0
+L13
+VQ7Wbl5dRU<dIh<bkKJ@AX0
+!s100 8cOk0F4NbmmOj=<5g11S>1
+R8
+32
+Z27 !s110 1447285612
+!i10b 1
+Z28 !s108 1447285612.806000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32control.vhd|
+Z30 !s107 C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu32control.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R3
+R4
+Z31 DEx4 work 12 alu32control 0 22 Q7Wbl5dRU<dIh<bkKJ@AX0
+l25
+L23
+VzCC2a50]hd0l<?Nani=d]2
+!s100 7c@;AmkEoJm1G_2>BSg;e1
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Ealu_ctrl
+Z32 w1447285378
+R2
+R3
+R4
+R5
+Z33 8C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu_ctrl.vhd
+Z34 FC:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu_ctrl.vhd
+l0
+L5
+VCLKlm8S?;5ioP<JKSchYf3
+!s100 1>_95_[`Gg>SWhoWC`Ze51
+R8
+32
+Z35 !s110 1447285617
+!i10b 1
+Z36 !s108 1447285617.503000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu_ctrl.vhd|
+Z38 !s107 C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\alu_ctrl.vhd|
+!i113 1
+R13
+R14
+Astr
+R15
+R1
+R31
+R2
+R3
+R4
+Z39 DEx4 work 8 alu_ctrl 0 22 CLKlm8S?;5ioP<JKSchYf3
+l22
+L18
+Z40 VVl]ooYKcdg^ezcVFa07Fh1
+Z41 !s100 :LbT5ni`;>X@Y1z=gl7:B1
+R8
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Ealu_ctrl_tb
+Z42 w1445095989
+R23
+R2
+R3
+R4
+R5
+Z43 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl_tb.vhd
+Z44 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl_tb.vhd
+l0
+L7
+V4zc9HUW7IU^@JA5CeBUN01
+!s100 8U9TzBhBICi6dhAHoK?5L1
+R8
+32
+Z45 !s110 1447259662
+!i10b 1
+Z46 !s108 1447259662.086000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl_tb.vhd|
+Z48 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/alu_ctrl_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R39
+R23
+R2
+R3
+R4
+DEx4 work 11 alu_ctrl_tb 0 22 4zc9HUW7IU^@JA5CeBUN01
+l23
+L11
+VhTBffgnBSdje8]NPWOomQ0
+!s100 :iR5HL3cFAY<:dT[kVNIo0
+R8
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R13
+R14
+Eextender
+Z49 w1441825146
+R3
+R4
+R5
+Z50 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/extender.vhd
+Z51 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/extender.vhd
+l0
+L4
+VY_LF5CD7H`H3nIRnRGAMP2
+!s100 XKUW6O`lUIfO;Z8=n24CE3
+R8
+32
+Z52 !s110 1447259664
+!i10b 1
+Z53 !s108 1447259664.498000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/extender.vhd|
+Z55 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/extender.vhd|
+!i113 1
+R13
+R14
+Astr
+Z56 DEx4 work 7 signext 0 22 @:[UDeCnn51P@`<lg3Cf^0
+Z57 DEx4 work 7 zeroext 0 22 2eocfB;WC5C8B<ezlAzKI3
+R3
+R4
+DEx4 work 8 extender 0 22 Y_LF5CD7H`H3nIRnRGAMP2
+l15
+L12
+V_oNd>SmQ39fbNfoBT1ccW0
+!s100 XDT8leAZGnbWjAbgZDE=M0
+R8
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R13
+R14
+Pmipslib
+R3
+R4
+w1447285593
+R5
+8C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\mipsLib.vhd
+FC:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\mipsLib.vhd
+l0
+L8
+VS7dmdlbN@NZWCddgkm1gU3
+!s100 7bXe40cn@d3ML5j^b<^1W0
+R8
+32
+!s110 1447285596
+!i10b 1
+!s108 1447285596.139000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\mipsLib.vhd|
+!s107 C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab4\mipsLib.vhd|
+!i113 1
+R13
+R14
+Emux2_1
+Z58 w1445103800
+R3
+R4
+R5
+Z59 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux2_1.vhd
+Z60 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux2_1.vhd
+l0
+L4
+VRHzA<aeF3z[1Kf=2e;c2O2
+!s100 8K]IENSo9jjm]26j611CH2
+R8
+32
+Z61 !s110 1447259665
+!i10b 1
+Z62 !s108 1447259665.172000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux2_1.vhd|
+Z64 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux2_1.vhd|
+!i113 1
+R13
+R14
+Abhv
+R3
+R4
+DEx4 work 6 mux2_1 0 22 RHzA<aeF3z[1Kf=2e;c2O2
+l15
+L14
+V^i:?:NiVRTLlJR<kmDHF?0
+!s100 a91W5mQocj0mZg2C@MMSm2
+R8
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R13
+R14
+Emux4_1
+Z65 w1445624963
+R3
+R4
+R5
+Z66 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux4_1.vhd
+Z67 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux4_1.vhd
+l0
+L4
+VAf@6F9U^CgWghUAdMI5jn1
+!s100 h<A=8G8lZ;M>M3P>:8>_00
+R8
+32
+R61
+!i10b 1
+Z68 !s108 1447259665.755000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux4_1.vhd|
+Z70 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/mux4_1.vhd|
+!i113 1
+R13
+R14
+Abhv
+R3
+R4
+DEx4 work 6 mux4_1 0 22 Af@6F9U^CgWghUAdMI5jn1
+l17
+L16
+Vmm1<h6OL9P>G^Y:MagbSi1
+!s100 <cF:FkAZ]nZY7PGaTzeK?0
+R8
+32
+R61
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R13
+R14
+Epcreg
+Z71 w1445027140
+R3
+R4
+R5
+Z72 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/pcReg.vhd
+Z73 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/pcReg.vhd
+l0
+L4
+VXQ0N>hJ:XEGaIPk>HLRYT0
+!s100 2<UR7o`FHXdakCIV9Uhdm1
+R8
+32
+Z74 !s110 1447259666
+!i10b 1
+Z75 !s108 1447259666.346000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/pcReg.vhd|
+Z77 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/pcReg.vhd|
+!i113 1
+R13
+R14
+Abhv
+R3
+R4
+DEx4 work 5 pcreg 0 22 XQ0N>hJ:XEGaIPk>HLRYT0
+l18
+L17
+V:lVd3m^;9SaeYVgPLK99G3
+!s100 HM7PAVIGng^3m^Ok]bmA31
+R8
+32
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R13
+R14
+Eram_data
+Z78 w1446084913
+Z79 DPx9 altera_mf 20 altera_mf_components 0 22 :zX8E]9f?PCk8X:Y[X97:1
+R3
+R4
+R5
+Z80 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/RAM_data.vhd
+Z81 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/RAM_data.vhd
+l0
+L43
+VQChQoiIWm33?bA9kJ:o2T3
+!s100 ]]1NZ4E?:P@hBkT]`eiaF1
+R8
+32
+R74
+!i10b 1
+Z82 !s108 1447259666.934000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/RAM_data.vhd|
+Z84 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/RAM_data.vhd|
+!i113 1
+R13
+R14
+Asyn
+R79
+R3
+R4
+DEx4 work 8 ram_data 0 22 QChQoiIWm33?bA9kJ:o2T3
+l62
+L58
+VPd[:WGUTPBbL=:_A;eM;01
+!s100 j5:TFn]:AVkW;]feHbkOO1
+R8
+32
+R74
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R13
+R14
+Eramcontrol
+Z85 w1446119932
+R23
+R2
+R3
+R4
+R5
+Z86 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ramControl.vhd
+Z87 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ramControl.vhd
+l0
+L6
+VnNlcNQ@mncEU5JGoFYlUQ0
+!s100 dfh98fjoY]m@;dj1XiXHj1
+R8
+32
+Z88 !s110 1447259667
+!i10b 1
+Z89 !s108 1447259667.572000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ramControl.vhd|
+Z91 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/ramControl.vhd|
+!i113 1
+R13
+R14
+Abhv
+R23
+R2
+R3
+R4
+DEx4 work 10 ramcontrol 0 22 nNlcNQ@mncEU5JGoFYlUQ0
+l34
+L31
+VX9QYC5QA3e?0k>XfRB]4H2
+!s100 [ZYe0PhQ8HAQhM>BJMC]?2
+R8
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 1
+R13
+R14
+Ereg_gen
+Z92 w1443711513
+R3
+R4
+R5
+Z93 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/reg_gen.vhd
+Z94 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/reg_gen.vhd
+l0
+L5
+V94>XC;QE7Wzk8GDmI5;Y73
+!s100 diCeGHQZA?D9@al3]G0f32
+R8
+32
+Z95 !s110 1447259668
+!i10b 1
+Z96 !s108 1447259668.187000
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/reg_gen.vhd|
+Z98 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/reg_gen.vhd|
+!i113 1
+R13
+R14
+Abhv
+R3
+R4
+DEx4 work 7 reg_gen 0 22 94>XC;QE7Wzk8GDmI5;Y73
+l19
+L18
+V@>Hc:`7:0>SIo4T9L5nB33
+!s100 5f7dT9N=XPVXH2V?>K]Y<1
+R8
+32
+R95
+!i10b 1
+R96
+R97
+R98
+!i113 1
+R13
+R14
+Esignext
+Z99 w1445194083
+R3
+R4
+R5
+Z100 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/signext.vhd
+Z101 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/signext.vhd
+l0
+L5
+V@:[UDeCnn51P@`<lg3Cf^0
+!s100 lAEC9hYFeSDF9]L;F=<8`2
+R8
+32
+R95
+!i10b 1
+Z102 !s108 1447259668.778000
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/signext.vhd|
+Z104 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/signext.vhd|
+!i113 1
+R13
+R14
+Abhv
+R3
+R4
+R56
+l13
+L12
+VZng28n]`@5H?U`76DAiLA0
+!s100 g=hzcBE2fE]UzJLSTJ:OI2
+R8
+32
+R95
+!i10b 1
+R102
+R103
+R104
+!i113 1
+R13
+R14
+Esll2
+Z105 w1445279895
+R2
+R3
+R4
+R5
+Z106 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/SLL2.vhd
+Z107 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/SLL2.vhd
+l0
+L5
+Ve_[<il;fOKkgzoFjm:;oz1
+!s100 S81mEB5[AoYGAUzIdZegS2
+R8
+32
+Z108 !s110 1447259669
+!i10b 1
+Z109 !s108 1447259669.367000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/SLL2.vhd|
+Z111 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/SLL2.vhd|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+DEx4 work 4 sll2 0 22 e_[<il;fOKkgzoFjm:;oz1
+l16
+L15
+V2LCYz?o@NScVjmSWVY3U40
+!s100 6Y_`=GSd:dZCoMdO6JV3^0
+R8
+32
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R13
+R14
+Ezeroext
+R49
+R3
+R4
+R5
+Z112 8C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/zeroext.vhd
+Z113 FC:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/zeroext.vhd
+l0
+L4
+V2eocfB;WC5C8B<ezlAzKI3
+!s100 f?XTeAD>Pm230Ujdo01^43
+R8
+32
+Z114 !s110 1447259660
+!i10b 1
+Z115 !s108 1447259660.499000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/zeroext.vhd|
+Z117 !s107 C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/zeroext.vhd|
+!i113 1
+R13
+R14
+Abhv
+R3
+R4
+R57
+l12
+L11
+V4F]3Nj2c]Xl^`N7@KO6]03
+!s100 ;X29le<a`EoDH0z8JVGL92
+R8
+32
+R114
+!i10b 1
+R115
+R116
+R117
+!i113 1
+R13
+R14

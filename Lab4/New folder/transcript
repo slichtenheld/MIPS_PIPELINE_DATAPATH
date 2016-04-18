@@ -1,0 +1,254 @@
+# Compile of instr_mem.vhd was successful.
+vsim -gui work.tb
+# vsim 
+# Start time: 22:43:42 on Nov 28,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mipslib
+# Loading work.tb(tb)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.tplvl(str)
+# Loading work.mux4_1(bhv)
+# Loading work.pcreg(bhv)
+# Loading work.adder(bhv)
+# Loading work.instr_mem(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.reg(bhv)
+# Loading work.reg1_reset1(bhv)
+# Loading work.pipectrl(bhv)
+# Loading work.registerfile(str)
+# Loading work.mux32_1(bhv)
+# Loading work.decoder(bhv)
+# Loading work.extender(str)
+# Loading work.zeroext(bhv)
+# Loading work.signext(bhv)
+# Loading work.mux2_1(bhv)
+# Loading work.comparator(bhv)
+# Loading work.sll2(bhv)
+# Loading work.reg1(bhv)
+# Loading work.alu_ctrl(str)
+# Loading work.alu32control(bhv)
+# Loading work.alu32(bhv)
+# Loading work.ram_ctrl(str)
+# Loading work.data_mem(syn)
+# Loading work.ramcontrol(bhv)
+do C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab3/Final/wave.do
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: slichtenheld  Hostname: DESKTOP-HUPE3FV  ProcessID: 6388
+# 
+#           Attempting to use alternate WLF file "./wlft971gg4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft971gg4
+# 
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/clk'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/clk_mem'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/rst'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/pcRegOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/PC_DEC'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/instr'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_REGFILE/q_array'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/dataIn'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/addr'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/wr_en'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ctrl'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/dataOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramIn32'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramOut32'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramChipEn'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramWriteEn'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramMuxIn'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramMuxOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 21
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/U_MEM_data/ramAddr'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 22
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/ALU_OP'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 23
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/MemToReg'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 24
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/ALUSrc'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 25
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/ZSextend'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 26
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/regWrite'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 27
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/memWrite'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 28
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/memCtrl'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 29
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/regDst'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 30
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/regDst_r31'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 31
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/data_jal'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 32
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/lui'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 33
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/branch'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 34
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/jump'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/jumpReg'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 36
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/rr0_data'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 37
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/rr1_data'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 38
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/ALUSrcOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 39
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/extenderOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 40
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/alu_res'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 41
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/regDstOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 42
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/MemToRegOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 43
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/regDst_r31Out'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 44
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/data_jalOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 45
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/luiOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 46
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/branchSig'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 47
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/branchSigOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 48
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/jumpOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 49
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/jumpRegOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 50
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/Z_FlagOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 51
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/SLL2Out'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 52
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/PCplus4'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 53
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/PCplus8'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 54
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/branchAddOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 55
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/ramOut'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 56
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/C_Flag'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 57
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/Z_Flag'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 58
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/S_Flag'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 59
+# ** Error: (vish-4014) No objects found matching '/tb_tplvl/UUT/V_Flag'.
+# Executing ONERROR command at macro C:\Users\slichtenheld\Documents\UF\Fall15\CompArch\Lab3\Final\wave.do line 60
+do {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/wave.do}
+run -all
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(3)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(2)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(1)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(0)/U_Ram_data/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_REGFILE/U_DECODER
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/wave.do}
+# Compile of instr_mem.vhd was successful.
+vsim -gui work.tb
+# vsim 
+# Start time: 23:00:34 on Nov 28,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mipslib
+# Loading work.tb(tb)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.tplvl(str)
+# Loading work.mux4_1(bhv)
+# Loading work.pcreg(bhv)
+# Loading work.adder(bhv)
+# Loading work.instr_mem(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.reg(bhv)
+# Loading work.reg1_reset1(bhv)
+# Loading work.pipectrl(bhv)
+# Loading work.registerfile(str)
+# Loading work.mux32_1(bhv)
+# Loading work.decoder(bhv)
+# Loading work.extender(str)
+# Loading work.zeroext(bhv)
+# Loading work.signext(bhv)
+# Loading work.mux2_1(bhv)
+# Loading work.comparator(bhv)
+# Loading work.sll2(bhv)
+# Loading work.reg1(bhv)
+# Loading work.alu_ctrl(str)
+# Loading work.alu32control(bhv)
+# Loading work.alu32(bhv)
+# Loading work.ram_ctrl(str)
+# Loading work.data_mem(syn)
+# Loading work.ramcontrol(bhv)
+# WARNING: No extended dataflow license exists
+run -all
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(3)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(2)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(1)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(0)/U_Ram_data/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_REGFILE/U_DECODER
+do {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: slichtenheld  Hostname: DESKTOP-HUPE3FV  ProcessID: 6388
+# 
+#           Attempting to use alternate WLF file "./wlftwkn1fr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftwkn1fr
+# 
+restart
+run -all
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(3)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(2)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(1)/U_Ram_data/altsyncram_component
+# ** Warning: Warning: READ_DURING_WRITE_MODE_MIXED_PORTS is assumed as OLD_DATA
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_DATMEM/U_RAM(0)/U_Ram_data/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb/UUT/U_REGFILE/U_DECODER
+# Closing project C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab4/New folder/Lab4_correct.mpf

@@ -1,0 +1,32 @@
+# Compile of zeroext.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of adder_gen.vhd was successful.
+# Compile of adder_gen_tb.vhd was successful.
+# Compile of alu_ctrl.vhd was successful.
+# Compile of alu_ctrl_tb.vhd was successful.
+# Compile of alu32.vhd was successful.
+# Compile of alu32_tb.vhd was successful.
+# Compile of alu32control.vhd was successful.
+# Compile of control.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of extender.vhd was successful.
+# Compile of extender_tb.vhd was successful.
+# Compile of mipsLib.vhd was successful.
+# Compile of mux2_1.vhd was successful.
+# Compile of mux2_1BIT.vhd was successful.
+# Compile of mux32_1.vhd was successful.
+# Compile of PC_tplvl.vhd was successful.
+# Compile of pcReg.vhd was successful.
+# Compile of RAM_data.vhd was successful.
+# Compile of RAM_instr.vhd was successful.
+# Compile of reg_gen.vhd was successful.
+# Compile of reg_gen_tb.vhd was successful.
+# Compile of registerFile.vhd was successful.
+# Compile of registerFile_tb.vhd was successful.
+# Compile of ROM_instr.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of SLL2.vhd was successful.
+# Compile of TB_rOP.vhd was successful.
+# Compile of TB_pc.vhd was successful.
+# 30 compiles, 0 failed with no errors.
+vsim -do Lab3_1_run_msim_gate_vhdl.do -l msim_transcript -gui work.tb_pc

@@ -1,0 +1,55 @@
+# vsim 
+# Start time: 17:10:43 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mux5_tb(tb)
+# Loading work.mux5(bhv)
+# Loading instances from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(73): Failed to find INSTANCE '\in1~input\'.
+# 
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(55): Failed to find INSTANCE '\in2~input\'.
+# 
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(82): Failed to find INSTANCE '\output~0\'.
+# 
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(45): Failed to find INSTANCE '\output~output\'.
+# 
+# ** Error: (vsim-SDF-3250) C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/Mux/simulation/modelsim/Mux2_1_7_1200mv_-40c_vhd_slow.sdo(64): Failed to find INSTANCE '\sel~input\'.
+# 
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# 
+# ** Fatal: SDF files require Altera primitive library
+#    Time: 0 ps  Iteration: 0  Instance: /mux5_tb File: C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Mux5_tb.vhd Line: UNKNOWN
+# FATAL ERROR while loading design
+# Error loading design
+vsim work.mux5_tb
+# vsim 
+# Start time: 17:11:00 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mux5_tb(tb)
+# Loading work.mux5(bhv)
+vsim work.mux5_tb
+# vsim 
+# Start time: 17:11:40 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mux5_tb(tb)
+# Loading work.mux5(bhv)
+add wave -position end  sim:/mux5_tb/in1
+add wave -position end  sim:/mux5_tb/in2
+add wave -position end  sim:/mux5_tb/sel
+add wave -position end  sim:/mux5_tb/output
+run -all
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 40960 ns  Iteration: 0  Instance: /mux5_tb
+# End time: 17:17:59 on Sep 09,2015, Elapsed time: 0:06:19
+# Errors: 0, Warnings: 1

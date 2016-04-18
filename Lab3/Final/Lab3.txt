@@ -1,0 +1,68 @@
+0:	lui $1, 0xffff
+1:	lui $2, 0x8000
+2:	lui $3, 0x7fff
+3:	lui $4, 0x5a4b
+4:	lui $5, 0x1e0f
+5:	addi $6, $0, 0x0001
+6:	ori $1, $1, 0xfffe
+7:	ori $3, $3, 0xffff
+8:	ori $4, $4, 0x3c2d
+9:	ori $5, $5, 0xf0e1
+a:	sub $7, $0, $6
+b:	add $1, $1, $6
+c:	ori $8, $2, 0x0800
+	toggle:
+d:	nor $9, $4, $5
+e:	beq $4, $5, end --BRANCH TO END
+f:	srl $10, $2, 1
+10:	srl $11, $2, 16
+11:	sll $12, $8, 4
+12:	sll $13, $8, 20
+13:	subu $8, $8, $10
+dest:
+14:	sltiu $24, $11, 0x7fff
+15:	slt $9, $10, $12
+16:	sltu $16, $10, $12
+17:	slt $11, $13, $0
+18:	sltu $17, $13, $0
+19:	slti $14, $0, 0x0001
+1a:	slti $15, $13, 0x7fff
+1b:	sw $4, 0x0000($8) --5A4B3C2D @4000800 first time
+1c:	sw $5, 0x0004($8) --1E0FF0E1 @4000804 first time
+1d:	sll $10, $10, 1
+1e:	srl $13, $13, 16
+1f:	bne $9, $14, dest 
+20:	addiu $11, $11, 0x0808
+21:	addiu $8, $8, 0x0001
+22:	jal part --DOES NOT STORE IN $31 -- FIXED
+23:	j toggle
+end:
+24:	j end
+part:
+25:	lw $18, -1($8) --works
+26:	lw $19, 3($8) --works
+27:	addu $9, $8, $1 
+28:	addu $11, $8, $11
+29:	addiu $30, $31, 0x0024
+2a:	lhu $20, -1($8) --doesn't work --FIXED
+2b:	lhu $21, 5($8) --ZEROS???
+2c:	lbu $22, 4($9) --
+2d:	lbu $23, 3($9) ----ZEROS???
+2e:	or $20, $20, $21
+2f:	or $21, $21, $19
+30:	and $24, $19, $18
+31:	andi $25, $19, 0x9f93 --WAS USING adOp in CNTRL -- FIXED
+32:	sh $18, 8($9)
+33:	sh $19, 12($9)
+34:	addi $8, $8, 0x0004
+35:	addi $9, $9, 0x0004
+36:	slt $4, $20, $21
+37:	slt $5, $22, $23
+38:	sb $22, 12($9)
+39:	sb $23, 13($9)
+3a:	sb $24, 14($9)
+3b:	sb $25, 15($9)
+3c:	beq $4, $5, back
+3d:	jr $30
+back:
+3e:	jr $31

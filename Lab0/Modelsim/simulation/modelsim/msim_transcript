@@ -1,0 +1,125 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Reg32_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:15:36 on Sep 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture BHV of reg32
+# End time: 23:15:36 on Sep 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/simulation/modelsim/Reg32_7_1200mv_-40c_slow.vho
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:15:54 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/simulation/modelsim/Reg32_7_1200mv_-40c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity reg32
+# -- Compiling architecture structure of reg32
+# End time: 23:15:55 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:16:06 on Sep 09,2015
+# vcom -reportprogress 300 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg32_tb
+# -- Compiling architecture TB of reg32_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Loading entity reg32
+# End time: 23:16:07 on Sep 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim +altera -do Reg32_run_msim_rtl_vhdl.do -l msim_transcript -gui -sdftyp /UUT=C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/simulation/modelsim/Reg32_7_1200mv_-40c_vhd_slow.sdo work.reg32_tb(tb)
+# vsim -gui "+altera" -l msim_transcript -do "Reg32_run_msim_rtl_vhdl.do" 
+# Start time: 23:16:31 on Sep 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.reg32_tb(tb)
+# SDF 10.3d Compiler 2014.10 Oct  7 2014
+# 
+# Loading work.reg32(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading instances from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/simulation/modelsim/Reg32_7_1200mv_-40c_vhd_slow.sdo
+# Loading timing data from C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/simulation/modelsim/Reg32_7_1200mv_-40c_vhd_slow.sdo
+# ** Warning: Design size of 11962 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /reg32_tb File: C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32_tb.vhd
+# do Reg32_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 23:16:34 on Sep 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/slichtenheld/Documents/UF/Fall15/CompArch/Lab0/Modelsim/reg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture BHV of reg32
+# End time: 23:16:34 on Sep 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+add wave -position end  sim:/reg32_tb/clk
+add wave -position end  sim:/reg32_tb/clken
+add wave -position end  sim:/reg32_tb/clr
+add wave -position end  sim:/reg32_tb/wr
+add wave -position end  sim:/reg32_tb/d
+add wave -position end  sim:/reg32_tb/q
+run -all
+# ** Note: SIMULATION FINISHED!!!
+#    Time: 230 ns  Iteration: 0  Instance: /reg32_tb
+# End time: 23:56:33 on Sep 09,2015, Elapsed time: 0:40:02
+# Errors: 0, Warnings: 1

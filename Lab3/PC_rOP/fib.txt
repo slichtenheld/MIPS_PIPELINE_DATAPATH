@@ -1,0 +1,20 @@
+0:	addiu $1, $0, 0x0005
+1:	add $4, $0, $0
+2:	add $2, $r0, $0
+3:	addi $5, $0, 0x0001
+for:
+4:	slt $10, $2, $1
+5:	beq $10, $0, exit(9)
+6:	slti $10, $2, 0x0002
+7:	beq $10, $0, else(2)
+8:	add $3, $2, $0
+9:	j forloopend
+else:
+a:	add $3, $4, $5
+b:	add $4, $5, $0
+c:	add $5, $3, $0
+	forloopend:
+d:	addi $2, $2, 0x0001
+e:	j for
+exit:
+f:	j exit
